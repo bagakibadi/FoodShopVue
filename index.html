@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+    }
+    .row1{
+      position: relative;
+      /* border: 2px solid red; */
+      width: 65%;
+    }
+    .row2{
+      position: relative;
+      width: 35%;
+      /* border: 2px solid green; */
+    }
+    .navbar{
+      position: relative;
+      width: 100%;
+      height: 65px;
+      box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+    .title-navbar{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .burger{
+      left: 10px;
+      top: 2px;
+      width: 5%;
+      position: absolute;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      /* background: red; */
+    }
+    .sidebarBtn span {
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #262626;
+      position: absolute;
+      top: 24px;
+      transition: .3s;
+    }
+    .sidebarBtn span:before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #262626;
+      transition: .3s;
+    }
+    .sidebarBtn span:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: #262626;
+      transition: .3s;
+    }
+    .search{
+      position: relative;
+      float: right;
+      /* width: 100%; */
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .material-icons{
+      position: relative;
+      /* float: right; */
+      right: 20px;
+    }
+    .navbar2{
+      z-index: 999;
+      position: relative;
+      width: 100%;
+      height: 65px;
+      box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+    .cart{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 5;
+    }
+    .cart h1 span{
+      background: #57CAD5;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* width: 50px; */
+      /* height: 25px; */
+      border-radius: 100px;
+    }
+    .content{
+      position: relative;
+      width: 100%;
+      height: 90%;
+      display: flex;
+    }
+    .c1{
+      background: white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+      width: 60px;
+      /* height: 100%; */
+    }
+    .c1 ul li {
+      margin-left: 5px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .c1 ul li img{
+      width: 45px;
+      height: 40px;
+    }
+    .c2{
+      background: rgba(190, 195, 202, 0.3);
+      width: 93%;
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+      /* height: 100%; */
+    }
+
+
+    .content2{
+      position: relative;
+      height: 593px;
+      background: white;
+      border: 1px solid #CECECE;
+      /* width: 90%; */
+      /* border: 2px solid red; */
+    }
+    .card{
+      margin-top: 20px;
+      height: 280px;
+      width: 250px;
+      /* border-radius: 15px; */
+      /* background: white; */
+    }
+    .card img{
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+    }
+    .card p {
+      /* margin-left: 10px; */
+      font-size: 25px;
+      line-height: 33px;
+    }
+    .card h3{
+      /* margin-left: 10px; */
+      font-size: 25px;
+      line-height: 33px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row1">
+      <nav class="navbar">
+        <div class="burger">
+          <button class="sidebarBtn">
+            <span></span>
+          </button>
+        </div>
+        <div class="title-navbar">
+          <h1>Food Items</h1>
+        </div>
+        <div class="search">
+          <i class="material-icons" style="font-size:36px">search</i>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="c1">
+          <ul>
+            <li><img src="./src/assets/fork.png" alt=""></li>
+            <li><img src="./src/assets/clipboard.png" alt=""></li>
+            <li><img src="./src/assets/add.png" alt=""></li>
+          </ul>
+        </div>
+        <div class="c2">
+          <div class="card">
+            <img src="./src/assets/espresso.jfif" alt="">
+            <p>Espresso</p>
+            <h3>Rp.10.000</h3>
+          </div>
+          <div class="card">
+            <img src="./src/assets/coffe_late.jfif" alt="">
+            <p>Coffe Latte</p>
+            <h3>Rp.15.000</h3>
+          </div>
+          <div class="card">
+            <img src="./src/assets/cappucino.jfif" alt="">
+            <div class="menu">
+              <p>Cappucino</p>
+              <h3>Rp.5.000</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/assets/cappucino.jfif" alt="">
+            <div class="menu">
+              <p>Cappucino</p>
+              <h3>Rp.5.000</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/assets/cappucino.jfif" alt="">
+            <div class="menu">
+              <p>Cappucino</p>
+              <h3>Rp.5.000</h3>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./src/assets/cappucino.jfif" alt="">
+            <div class="menu">
+              <p>Cappucino</p>
+              <h3>Rp.5.000</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+
+      </div>
+    </div>
+    <div class="row2">
+      <div class="navbar2">
+        <div class="cart">
+          <h1>Cart <span>0</span></h1>
+        </div>
+      </div>
+      <div class="content2">
+        <p>Your Card Is Empty</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
