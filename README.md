@@ -1,24 +1,44 @@
-# food
+# Food Cashier (POS)
 
-## Project setup
+## Table of Contents
+
+- [Features](#Features)
+- [How To Install](#how-to-install)
+- [Related Project](#related-project)
+- [Contact](#contact)
+
+## Features
+
+- Users who are not logged in can only view the Menu
+- Users must sign up and sign in to make a transaction
+- And others
+
+
+## How-To-Install
+
+1. Open your terminal or command prompt
+2. Type `git clone https://github.com/bagakibadi/FoodCashierVue.git`
+3. Open the folder and type `npm install` for install dependencies
+4. Create Environment Variable [here](#create-environment-variable)
+5. Before run this, you must run [Backend First](#related-project)
+6. Type `npm run serve` for run this app.
+
+## Create Environment Variable
+
 ```
-npm install
+$ touch .env.local
+$ nano .env.local
 ```
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+VUE_APP_API=YOUR_URL_API
+VUE_APP_SECRET_KEY=YOUR_SECRET_KEY
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Related Project
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [`Backend-Food-Cashier`](https://github.com/bagakibadi/Backend-FoodCashier)
+
+## Contact
+
+MyEmail : solaybagus2@gmail.com
