@@ -1,10 +1,25 @@
 # Food Cashier (POS)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/bagakibadi/FoodCashierVue)
+![GitHub contributors](https://img.shields.io/github/contributors/bagakibadi/FoodCashierVue)
+![GitHub stars](https://img.shields.io/github/stars/bagakibadi/FoodCashierVue?style=social)
+![GitHub forks](https://img.shields.io/github/forks/bagakibadi/FoodCashierVue?style=social)
+)
+
+<p align="center">
+  <img height="100" src="https://vuejs.org/images/logo.png">
+</p>
+<p align="center">
+  Built with Vue Js.
+</p>
+
+
 ## Table of Contents
 
 - [Features](#Features)
 - [How To Install](#how-to-install)
 - [Related Project](#related-project)
+- [Screenshot](#Screenshot)
 - [Contact](#contact)
 
 ## Features
@@ -38,6 +53,10 @@ VUE_APP_SECRET_KEY=YOUR_SECRET_KEY
 ## Related Project
 
 * [`Backend-Food-Cashier`](https://github.com/bagakibadi/Backend-FoodCashier)
+
+## Screenshot
+
+
 
 ## Contact
 
