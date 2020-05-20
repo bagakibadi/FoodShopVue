@@ -56,11 +56,11 @@ VUE_APP_SECRET_KEY=YOUR_SECRET_KEY
 ## Screenshot
 
 <div align="center">
-    <img width="430" src="src/assets/login.png">
-    <img width="430" src="src/assets/home1.png">
-    <img width="430" src="src/assets/home.png">
-    <img width="430" src="src/assets/register.png">
-    <img width="430" src="src/assets/checkout.jpg">
+    <img width="460" src="src/assets/login.png">
+    <img width="460" src="src/assets/home1.png">
+    <img width="460" src="src/assets/home.png">
+    <img width="460" src="src/assets/register.png">
+    <img width="460" src="src/assets/checkout.jpg">
 </div>
 
 
