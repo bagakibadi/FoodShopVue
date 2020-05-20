@@ -4,7 +4,6 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/bagakibadi/FoodCashierVue)
 ![GitHub stars](https://img.shields.io/github/stars/bagakibadi/FoodCashierVue?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/bagakibadi/FoodCashierVue?style=social)
-)
 
 <p align="center">
   <img height="100" src="https://vuejs.org/images/logo.png">
